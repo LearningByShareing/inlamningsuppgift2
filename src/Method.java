@@ -22,7 +22,7 @@ public class Method {
     public List<Costumer> readFromFile(Path costumerFile){
         List<Costumer> costumerFromFile = new ArrayList<>();
 
-        String idNumber = "";
+        String idNumber;            //varför behöver inte denna initieras
         String fullName = "";
         String paymentDate = "";
 
